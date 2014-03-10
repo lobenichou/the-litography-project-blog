@@ -2,4 +2,5 @@ name: The Litography Project
 markdown: redcarpet
 pygments: true
 baseurl: /the-litography-project
+host: http://laurenbenichou.github.io/
 permalink: /:month-:day-:year/:title.html
