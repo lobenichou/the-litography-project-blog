@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The Litography Project</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Google Map JS -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcPA81_b6-n4KjMYRZpLlnn0GUnXRBBQ&sensor=true"></script>
+
+  <!-- JQUERY -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <!-- script -->
+   <script src="js/script.js"></script>
+   <script src="js/foggy.js"></script>
+
+</head>
+<body>
+
+  <div class="site">
+    <div class="map-nav">
+      {% include map.html %}
+    </div>
+
+  <div class="main-content">
+    <ul>
+      {% for post in site.posts %}
+      <a name="{{post.number}}" href="{{post.url}}" class="locate_post" data-id="{{post.location}}">
+      <div id="{{post.number}}" class="post-preview">
+        {{ post.excerpt }}
+    </div>
+  </a>
+  <input type="hidden" class="post_location" name="post_location" value="{{post.location}}">
+      {% endfor %}
+    </ul>
+  </div>
+  </div>
+</body>
+</html>

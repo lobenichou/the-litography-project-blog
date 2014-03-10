@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Google Map JS -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcPA81_b6-n4KjMYRZpLlnn0GUnXRBBQ&sensor=true"></script>
+
+  <!-- JQUERY -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+   <!-- script -->
+   <script src="js/script.js"></script>
+   <script src="js/foggy.js"></script>
+
+</head>
+<body>
+
+  <div class="site">
+    <div class="map-nav">
+      {% include map.html %}
+    </div>
+
+  <div class="main-content">
+    {{content}}
+  </div>
+
+  </div>
+</body>
+</html>
