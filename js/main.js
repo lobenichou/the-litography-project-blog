@@ -140,22 +140,23 @@ function initialize() {
     });
 };
 
-loc = $(".post_location").val()
-geocoder = new google.maps.Geocoder();
-geocoder.geocode( { 'address': loc}, function(results, status) {
-  if (status == google.maps.GeocoderStatus.OK) {
-    var marker = new google.maps.Marker({
-      position: results[0].geometry.location,
-      icon: "/images/marker-orange.png"
-    });
-    marker.setMap(map)
-    map.setZoom(16);
-    map.panTo(results[0].geometry.location);
-  } else {
-    alert("Geocode was not successful for the following reason: " + status);
-  }
-});
-
+if ($(".post_location").length > 0){
+  loc = $(".post_location").val()
+  geocoder = new google.maps.Geocoder();
+  geocoder.geocode( { 'address': loc}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      var marker = new google.maps.Marker({
+        position: results[0].geometry.location,
+        icon: "/images/marker-orange.png"
+      });
+      marker.setMap(map)
+      map.setZoom(16);
+      map.panTo(results[0].geometry.location);
+    } else {
+      alert("Geocode was not successful for the following reason: " + status);
+    }
+  });
+};
 };
 
 
