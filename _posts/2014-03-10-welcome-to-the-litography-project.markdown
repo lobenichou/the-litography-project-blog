@@ -8,7 +8,7 @@ location:  San Francisco, CA
 cover-image: /the-litography-project/images/stories/the-crew.jpeg
 ---
 
-<div class="post-image" style="background-image:url('/images/stories/the-crew.jpeg');">
+<div class="post-image" style="background-image:url('/the-litography-project/images/stories/the-crew.jpeg');">
 <h1 class="post-title">The Litography Project</h1>
 </div>
 
