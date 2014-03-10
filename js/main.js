@@ -88,7 +88,7 @@ function initialize() {
 
     // gets the location for each post into an array
     var location_arr = []
-    $(".post_location").each(function(){
+    $(".post_location", ".main-content").each(function(){
       location_arr.push($(this).val());
       return location_arr
     });
@@ -109,30 +109,30 @@ function initialize() {
             marker.setMap(map);
             allMarkers.push(marker);
 
-            // google.maps.event.addListener(marker, "mouseover", function(){
-            //   id = marker.id;
-            //   post_id = "#" + id
-            //   $(".post-preview").foggy({
-            //      blurRadius: 2,          // In pixels.
-            //      opacity: 0.8,           // Falls back to a filter for IE.
-            //      cssFilterSupport: true  // Use "-webkit-filter" where available.
-            //    });
+            google.maps.event.addListener(marker, "mouseover", function(){
+              id = marker.id;
+              post_id = "#" + id
+              $(".post-preview", ".main-content").foggy({
+                 blurRadius: 2,          // In pixels.
+                 opacity: 0.8,           // Falls back to a filter for IE.
+                 cssFilterSupport: true  // Use "-webkit-filter" where available.
+               });
 
-            //   $(post_id).foggy(false);
+              $(post_id).foggy(false);
 
-            // });
+            });
 
-            // google.maps.event.addListener(marker, "mouseout", function(){
-            //   $(".post-preview").foggy(false);
-            // });
+            google.maps.event.addListener(marker, "mouseout", function(){
+              $(".post-preview", ".main-content").foggy(false);
+            });
 
 
-            // google.maps.event.addListener(marker, "click", function(){
-            //   id = marker.id;
-            //   console.log(id);
-            //   url = $('a[name="'+ id +'"]').attr('href')
-            //   window.location = url
-            // });
+            google.maps.event.addListener(marker, "click", function(){
+              id = marker.id;
+              console.log(id);
+              url = $('a[name="'+ id +'"]').attr('href')
+              window.location = url
+            });
 
           } else {
             alert("Geocode was not successful for the following reason: " + status);
@@ -143,7 +143,7 @@ function initialize() {
 
 
 // Clicking on a post zooms to that location
-$(".locate_post").on("click", function(){
+$(".locate_post", ".main-content").on("click", function(){
   loc = $(this).attr("data-id")
   geocoder = new google.maps.Geocoder();
   geocoder.geocode( { 'address': loc}, function(results, status) {
@@ -166,7 +166,7 @@ $(".social-media-1").on("click", function(){
   map.setZoom(12);
 });
 
-$(".back-arrow").on("click", function(){
+$(".back-arrow", ".main-content").on("click", function(){
   map.panTo(new google.maps.LatLng(37.76, -122.436));
   map.setZoom(12);
 });

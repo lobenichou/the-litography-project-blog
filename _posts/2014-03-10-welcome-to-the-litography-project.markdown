@@ -15,7 +15,7 @@ cover-image: /images/stories/the-crew.jpeg
 <p class="meta">{{ page.date | date_to_string }}{{post.url}}</p>
 <p class="back-arrow"><a href="/">&larr; Back</a></p>
 
-<a href="http://twitter.com/intent/tweet?url=http://thelitographyproject.com/03-10-2014/welcome-to-the-litography-project.html">Tweet</a> | <a  href="http://facebook.com/sharer.php?u=http://thelitographyproject.com/03-10-2014/welcome-to-the-litography-project.html">Like</a> | <a href="https://plus.google.com/share?url=http%3A%2F%2Fhttp://thelitographyproject.com/03-10-2014/welcome-to-the-litography-project.html">+1</a>
+<a class="button tiny disabled" href="http://twitter.com/intent/tweet?url=http://thelitographyproject.com/03-10-2014/welcome-to-the-litography-project.html">Tweet</a> | <a class="button tiny" href="http://facebook.com/sharer.php?u=http://thelitographyproject.com/03-10-2014/welcome-to-the-litography-project.html">Like</a> | <a class="button tiny alert" href="https://plus.google.com/share?url=http%3A%2F%2Fhttp://thelitographyproject.com/03-10-2014/welcome-to-the-litography-project.html">+1</a>
 
 
 
