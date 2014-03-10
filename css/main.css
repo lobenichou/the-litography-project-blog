@@ -145,8 +145,8 @@ a:visited { color: #a0a; }
 }
 
 .main-content{
-  padding: 0;
-  height: 100%;
+  padding: 10px;
+  height: auto;
   font-size: 115%;
   text-align: justify;
   color: white;
@@ -154,9 +154,9 @@ a:visited { color: #a0a; }
 }
 
 .main-content-post{
-  padding: 0;
+  padding: 10px;
   margin-left: 50%;
-  height: 100%;
+  height: auto;
   font-size: 115%;
   text-align: justify;
   color: white;
@@ -264,7 +264,9 @@ a:visited { color: #a0a; }
 }
 
 
-
+.padding{
+  padding: 20px;
+}
 
 /* standard */
 .post pre {
