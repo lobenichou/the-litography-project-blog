@@ -12,9 +12,12 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 <h1 class="post-title">A Peek Inside One of San Francisco's Last Book Binderies</h1>
 </div>
 
-<p class="meta">{{ page.date | date_to_string }} - {{post.url}}</p>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
 <p class="back-arrow"><a href="/">&larr; Back</a></p>
-{% include share_button.html %}
+
+<a href="http://twitter.com/intent/tweet?url=http://thelitographyproject.com/03-09-2014/A-Peek-Inside-One-of-San-Francisco.html">Tweet</a> | <a  href="http://facebook.com/sharer.php?u=http://thelitographyproject.com/03-09-2014/A-Peek-Inside-One-of-San-Francisco.html">Like</a> | <a href="https://plus.google.com/share?url=http%3A%2F%2Fhttp://thelitographyproject.com/03-09-2014/A-Peek-Inside-One-of-San-Francisco.html">+1</a>
+
 
 <p>Nowadays, most books are quickly put together, or bound, in
 large factories. Reams of paper whir through mechanized assembly
