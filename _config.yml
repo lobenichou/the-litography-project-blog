@@ -1,5 +1,5 @@
 name: The Litography Project
 markdown: redcarpet
 pygments: true
-baseurl: /the-litography-project
+
 permalink: /:month-:day-:year/:title.html
