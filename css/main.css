@@ -233,7 +233,7 @@ a:visited { color: #a0a; }
 
 .post-title, .cover-title{
   position: absolute;
-  margin-top: 220px;
+  margin-top: 116px;
   height: auto;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
@@ -243,7 +243,7 @@ a:visited { color: #a0a; }
 
 .post-image{
   position: relative;
-  height: 300px;
+  height: 200px;
   width: 100%;
   background-position:center;
   background-size:cover;
