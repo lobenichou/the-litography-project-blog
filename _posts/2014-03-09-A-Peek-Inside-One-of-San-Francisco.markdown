@@ -12,11 +12,14 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 <h1 class="post-title">A Peek Inside One of San Francisco's Last Book Binderies</h1>
 </div>
 
-<p class="meta">{{ page.date | date_to_string }}</p>
-
 <p class="back-arrow"><a href="/">&larr; Back</a></p>
 
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<hr>
 {% include share_button.html %}
+
+<hr>
 
 <div class="padding">
 <p>Nowadays, most books are quickly put together, or bound, in

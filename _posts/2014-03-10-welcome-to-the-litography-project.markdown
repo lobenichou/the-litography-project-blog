@@ -12,9 +12,15 @@ cover-image: /images/stories/the-crew.jpeg
 <h1 class="post-title">The Litography Project</h1>
 </div>
 
-<p class="meta">{{ page.date | date_to_string }}{{post.url}}</p>
-<p class="back-arrow"><a href="/">&larr; Back</a></p> {% include share_button.html %}
+<p class="back-arrow"><a href="/">&larr; Back</a></p>
 
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<hr>
+
+{% include share_button.html %}
+
+<hr>
 <div class="padding">
 <p>Hello world!</p>
 
