@@ -3,7 +3,7 @@ layout: post
 title:  "This is a test post"
 date:   2014-03-04 15:08:29
 categories: test
-number: 3
+number: 1
 location:  261 Columbus Ave, San Francisco, CA 94133
 ---
 
