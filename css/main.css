@@ -213,22 +213,14 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.post-title{
-  position: absolute;
-  bottom: 0;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  font-size: 20px;
-}
-
-.cover-title{
+.post-title, .cover-title{
   position: absolute;
   margin-top: 220px;
   height: auto;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   font-size: 20px;
+  padding: 10px;
 }
 
 .post-image{
