@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>The Litography Project</title>
   <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
 
   <!-- Foundation -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.min.css">
@@ -28,6 +30,7 @@
 
 </head>
 <body>
+  {% include sharing.html %}
 <div class="row">
 
     <div class="map-nav large-6 columns">

@@ -12,7 +12,9 @@ cover-image: /the-litography-project/images/stories/the-crew.jpeg
 <h1 class="post-title">The Litography Project</h1>
 </div>
 
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date_to_string }}{{post.url}}</p>
+
+{% include share_button.html %}
 
 <p>Hello world!</p>
 
