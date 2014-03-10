@@ -153,6 +153,16 @@ a:visited { color: #a0a; }
   background-color: rgba(0, 0, 0,0.4);
 }
 
+.main-content-post{
+  padding: 0;
+  margin-left: 50%;
+  height: 100%;
+  font-size: 115%;
+  text-align: justify;
+  color: white;
+  background-color: rgba(0, 0, 0,0.4);
+}
+
 .post-content{
   padding: 1em;
 }

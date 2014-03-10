@@ -88,7 +88,7 @@ function initialize() {
 
     // gets the location for each post into an array
     var location_arr = []
-    $(".post_location", ".main-content").each(function(){
+    $(".posts_location", ".main-content").each(function(){
       location_arr.push($(this).val());
       return location_arr
     });
