@@ -100,46 +100,61 @@ function initialize() {
     geocoder.geocode( { 'address': location_arr[i]}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
 
-            var marker = new google.maps.Marker({
-              position: results[0].geometry.location,
-              icon: "/images/marker-orange.png",
-              id: counter++
-            });
+        var marker = new google.maps.Marker({
+          position: results[0].geometry.location,
+          icon: "/images/marker-orange.png",
+          id: counter++
+        });
 
-            marker.setMap(map);
-            allMarkers.push(marker);
+        marker.setMap(map);
+        allMarkers.push(marker);
 
-            google.maps.event.addListener(marker, "mouseover", function(){
-              id = marker.id;
-              post_id = "#" + id
-              $(".post-preview", ".main-content").foggy({
+        google.maps.event.addListener(marker, "mouseover", function(){
+          id = marker.id;
+          post_id = "#" + id
+          $(".post-preview", ".main-content").foggy({
                  blurRadius: 2,          // In pixels.
                  opacity: 0.8,           // Falls back to a filter for IE.
                  cssFilterSupport: true  // Use "-webkit-filter" where available.
                });
 
-              $(post_id).foggy(false);
+          $(post_id).foggy(false);
 
-            });
-
-            google.maps.event.addListener(marker, "mouseout", function(){
-              $(".post-preview", ".main-content").foggy(false);
-            });
-
-
-            google.maps.event.addListener(marker, "click", function(){
-              id = marker.id;
-              console.log(id);
-              url = $('a[name="'+ id +'"]').attr('href')
-              window.location = url
-            });
-
-          } else {
-            alert("Geocode was not successful for the following reason: " + status);
-          }
         });
+
+        google.maps.event.addListener(marker, "mouseout", function(){
+          $(".post-preview", ".main-content").foggy(false);
+        });
+
+
+        google.maps.event.addListener(marker, "click", function(){
+          id = marker.id;
+          console.log(id);
+          url = $('a[name="'+ id +'"]').attr('href')
+          window.location = url
+        });
+
+      } else {
+        alert("Geocode was not successful for the following reason: " + status);
+      }
+    });
 };
 
+loc = $(".post_location").val()
+geocoder = new google.maps.Geocoder();
+geocoder.geocode( { 'address': loc}, function(results, status) {
+  if (status == google.maps.GeocoderStatus.OK) {
+    var marker = new google.maps.Marker({
+      position: results[0].geometry.location,
+      icon: "/images/marker-orange.png"
+    });
+    marker.setMap(map)
+    map.setZoom(16);
+    map.panTo(results[0].geometry.location);
+  } else {
+    alert("Geocode was not successful for the following reason: " + status);
+  }
+});
 
 };
 
