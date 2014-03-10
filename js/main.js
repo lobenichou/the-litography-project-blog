@@ -111,9 +111,8 @@ function initialize() {
 
             google.maps.event.addListener(marker, "mouseover", function(){
               id = marker.id;
-              console.log(id);
               post_id = "#" + id
-              $(".main-container").foggy({
+              $(".post-preview").foggy({
                  blurRadius: 2,          // In pixels.
                  opacity: 0.8,           // Falls back to a filter for IE.
                  cssFilterSupport: true  // Use "-webkit-filter" where available.
@@ -124,7 +123,7 @@ function initialize() {
             });
 
             google.maps.event.addListener(marker, "mouseout", function(){
-              $(".main-container").foggy(false);
+              $(".post-preview").foggy(false);
             });
 
 
