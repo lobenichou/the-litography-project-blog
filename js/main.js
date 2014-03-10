@@ -109,22 +109,22 @@ function initialize() {
             marker.setMap(map);
             allMarkers.push(marker);
 
-            google.maps.event.addListener(marker, "mouseover", function(){
-              id = marker.id;
-              post_id = "#" + id
-              $(".post-preview").foggy({
-                 blurRadius: 2,          // In pixels.
-                 opacity: 0.8,           // Falls back to a filter for IE.
-                 cssFilterSupport: true  // Use "-webkit-filter" where available.
-               });
+            // google.maps.event.addListener(marker, "mouseover", function(){
+            //   id = marker.id;
+            //   post_id = "#" + id
+            //   $(".post-preview").foggy({
+            //      blurRadius: 2,          // In pixels.
+            //      opacity: 0.8,           // Falls back to a filter for IE.
+            //      cssFilterSupport: true  // Use "-webkit-filter" where available.
+            //    });
 
-              $(post_id).foggy(false);
+            //   $(post_id).foggy(false);
 
-            });
+            // });
 
-            google.maps.event.addListener(marker, "mouseout", function(){
-              $(".post-preview").foggy(false);
-            });
+            // google.maps.event.addListener(marker, "mouseout", function(){
+            //   $(".post-preview").foggy(false);
+            // });
 
 
             // google.maps.event.addListener(marker, "click", function(){
