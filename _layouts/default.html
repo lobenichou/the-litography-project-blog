@@ -7,24 +7,24 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Foundation -->
-  <link rel="stylesheet" href="/css/foundation.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.min.css">
 
   <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
   <!-- Google Map JS -->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcPA81_b6-n4KjMYRZpLlnn0GUnXRBBQ&sensor=true"></script>
    <!-- scripts -->
-    <script src="/js/vendor/jquery.min.js"></script>
-   <script src="/js/vendor/foggy.js"></script>
-   <script src="/js/vendor/script.js"></script>
-   <script src="/js/vendor/modernizr.min.js"></script>
-   <script src="/js/vendor/foundation.min.js"></script>
-   <script src="/js/main.js"></script>
+    <script src="{{ site.baseurl }}/js/vendor/jquery.min.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/foggy.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/script.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/modernizr.min.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/foundation.min.js"></script>
+   <script src="{{ site.baseurl }}/js/main.js"></script>
 
 </head>
 <body>
@@ -35,7 +35,7 @@
     </div>
 
   <div class="main-content large-6 columns">
-
+    <div class="content">
       {% for post in site.posts %}
 
       <a name="{{post.number}}" href="{{post.url}}" class="locate_post" data-id="{{post.location}}">
@@ -45,9 +45,10 @@
       </div>
 
   </a>
+
   <input type="hidden" class="post_location" name="post_location" value="{{post.location}}">
       {% endfor %}
-
+    </div>
   </div>
 </div>
 </body>

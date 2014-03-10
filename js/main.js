@@ -102,7 +102,7 @@ function initialize() {
 
             var marker = new google.maps.Marker({
               position: results[0].geometry.location,
-              icon: "/images/marker-orange.png",
+              icon: "{{ site.baseurl }}/images/marker-orange.png",
               id: counter++
             });
             marker.setMap(map);
@@ -150,7 +150,7 @@ $(".locate_post").on("click", function(){
     if (status == google.maps.GeocoderStatus.OK) {
       var marker = new google.maps.Marker({
         position: results[0].geometry.location,
-        icon: "/images/marker-orange.png"
+        icon: "{{ site.baseurl }}/images/marker-orange.png"
       });
       marker.setMap(map)
       map.setZoom(16);
@@ -161,8 +161,8 @@ $(".locate_post").on("click", function(){
   });
 });
 
-$(".back-arrow").on("click", function(){
-  map.panTo(37.76, -122.436);
+$(".social-media-1").on("click", function(){
+  map.panTo(new google.maps.LatLng(37.76, -122.436));
   map.setZoom(12);
 });
 

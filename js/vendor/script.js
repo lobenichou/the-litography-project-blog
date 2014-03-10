@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 
             // Replace the content of the main container (.content)
             // If you're using another div, you should change the selector
-            $('.main-content').hide().html($(data).find('.main-content')).fadeIn('slow');
+            $('.content').hide().html($(data).find('.content')).fadeIn('slow');
 
         });
     });
