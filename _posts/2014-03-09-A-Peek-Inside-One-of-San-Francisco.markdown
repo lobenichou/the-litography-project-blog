@@ -13,7 +13,7 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 </div>
 
 <p class="meta">{{ page.date | date_to_string }} - {{post.url}}</p>
-
+<p class="back-arrow"><a href="/">&larr; Back</a></p>
 {% include share_button.html %}
 
 <p>Nowadays, most books are quickly put together, or bound, in

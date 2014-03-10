@@ -105,6 +105,7 @@ function initialize() {
               icon: "/images/marker-orange.png",
               id: counter++
             });
+
             marker.setMap(map);
             allMarkers.push(marker);
 
@@ -127,12 +128,12 @@ function initialize() {
             });
 
 
-            google.maps.event.addListener(marker, "click", function(){
-              id = marker.id;
-              console.log(id);
-              url = $('a[name="'+ id +'"]').attr('href')
-              window.location = url
-            });
+            // google.maps.event.addListener(marker, "click", function(){
+            //   id = marker.id;
+            //   console.log(id);
+            //   url = $('a[name="'+ id +'"]').attr('href')
+            //   window.location = url
+            // });
 
           } else {
             alert("Geocode was not successful for the following reason: " + status);
@@ -162,6 +163,11 @@ $(".locate_post").on("click", function(){
 });
 
 $(".social-media-1").on("click", function(){
+  map.panTo(new google.maps.LatLng(37.76, -122.436));
+  map.setZoom(12);
+});
+
+$(".back-arrow").on("click", function(){
   map.panTo(new google.maps.LatLng(37.76, -122.436));
   map.setZoom(12);
 });
