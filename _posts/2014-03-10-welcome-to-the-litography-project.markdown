@@ -13,11 +13,9 @@ cover-image: /images/stories/the-crew.jpeg
 </div>
 
 <p class="meta">{{ page.date | date_to_string }}{{post.url}}</p>
-<p class="back-arrow"><a href="/">&larr; Back</a></p>
+<p class="back-arrow"><a href="/">&larr; Back</a></p> {% include share_button.html %}
 
-{% include share_button.html %}
-
-
+<div class="padding">
 <p>Hello world!</p>
 
 <p>Welcome to The Litography Project. This is serving as a temporary home-base while we raise the money to make this website as beautiful as it possibly can be!</p>
@@ -31,5 +29,5 @@ cover-image: /images/stories/the-crew.jpeg
 <p>Yours in literary pursuits, </p>
 
 <p>The Litography Team</p>
-
+</div>
 <input type="hidden" class="post_location" name="post_location" value="San Francisco, CA">

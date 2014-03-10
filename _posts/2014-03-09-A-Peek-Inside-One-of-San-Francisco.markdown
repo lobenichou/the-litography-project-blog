@@ -18,6 +18,7 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 
 {% include share_button.html %}
 
+<div class="padding">
 <p>Nowadays, most books are quickly put together, or bound, in
 large factories. Reams of paper whir through mechanized assembly
 lines, and huge blades slice thick piles of pages, shooting out
@@ -34,5 +35,5 @@ remain.</p>
 
 <p>Litography's Angela Johnston takes us to a workshop in the Mission
 where a bookbinder is keeping a centuries-old tradition alive.</p>
-
+</div>
 <input type="hidden" class="post_location" name="post_location" value=" 2736 16th street, San Francisco CA">
