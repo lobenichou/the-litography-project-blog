@@ -35,3 +35,4 @@ remain.</p>
 <p>Litography's Angela Johnston takes us to a workshop in the Mission
 where a bookbinder is keeping a centuries-old tradition alive.</p>
 
+<input type="hidden" class="post_location" name="post_location" value=" 2736 16th street, San Francisco CA">

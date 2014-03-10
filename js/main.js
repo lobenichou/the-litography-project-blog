@@ -141,18 +141,6 @@ function initialize() {
 };
 
 
-
-// Clicking on a post zooms to that location
-$(".social-media-1").on("click", function(){
-  map.panTo(new google.maps.LatLng(37.76, -122.436));
-  map.setZoom(12);
-});
-
-$(".back-arrow", ".main-content").on("click", function(){
-  map.panTo(new google.maps.LatLng(37.76, -122.436));
-  map.setZoom(12);
-});
-
 };
 
 
