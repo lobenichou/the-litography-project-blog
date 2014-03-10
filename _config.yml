@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: The Litography Project
 markdown: redcarpet
 pygments: true
-baseurl: /the-litography-project-blog
+# baseurl: /the-litography-project-blog
