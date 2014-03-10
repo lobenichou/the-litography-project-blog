@@ -243,14 +243,14 @@ a:visited { color: #a0a; }
 
 .post-image{
   position: relative;
-  height: 200px;
+  height: 300px;
   width: 100%;
   background-position:center;
   background-size:cover;
 }
 
 .post-preview{
-  height: 300px;
+  height: 200px;
   width: 100%;
   cursor: pointer;
   background-position:center;
