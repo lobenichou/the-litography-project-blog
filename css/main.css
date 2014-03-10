@@ -6,7 +6,7 @@
 
 /* Global Reset */
 
-@import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,900);
 
 * {
   margin: 0;
@@ -17,14 +17,15 @@ html, body { height: 100%; }
 
 body {
   background-color: rgb(180, 222, 221);
-  font-family:'Cutive Mono', serif;
+  font-family:'Playfair Display SC', serif;
   font-size: large;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  font-family:'Cutive Mono', serif;
+  font-family:'Playfair Display SC', serif;
+  font-weight: 900;
    }
 
 h1 { margin-bottom: 1em; }
