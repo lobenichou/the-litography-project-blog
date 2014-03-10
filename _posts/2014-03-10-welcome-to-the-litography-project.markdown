@@ -5,10 +5,10 @@ date:   2014-03-10 3:38:29
 categories: updates
 number: 2
 location:  San Francisco, CA
-cover-image: /the-litography-project/images/stories/the-crew.jpeg
+cover-image: /images/stories/the-crew.jpeg
 ---
 
-<div class="post-image" style="background-image:url('/the-litography-project/images/stories/the-crew.jpeg');">
+<div class="post-image" style="background-image:url('/images/stories/the-crew.jpeg');">
 <h1 class="post-title">The Litography Project</h1>
 </div>
 

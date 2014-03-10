@@ -5,10 +5,10 @@ date:   2014-03-09 23:01:29
 categories: story
 number: 1
 location:  2736 16th street, San Francisco CA
-cover-image: /the-litography-project/images/stories/angela-story-bookbindery.jpeg
+cover-image: /images/stories/angela-story-bookbindery.jpeg
 ---
 
-<div class="post-image" style="background-image:url('/the-litography-project/images/stories/angela-story-bookbindery.jpeg');">
+<div class="post-image" style="background-image:url('/images/stories/angela-story-bookbindery.jpeg');">
 <h1 class="post-title">A Peek Inside One of San Francisco's Last Book Binderies</h1>
 </div>
 

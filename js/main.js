@@ -102,7 +102,7 @@ function initialize() {
 
             var marker = new google.maps.Marker({
               position: results[0].geometry.location,
-              icon: "/the-litography-project/images/marker-orange.png",
+              icon: "/images/marker-orange.png",
               id: counter++
             });
             marker.setMap(map);
@@ -150,7 +150,7 @@ $(".locate_post").on("click", function(){
     if (status == google.maps.GeocoderStatus.OK) {
       var marker = new google.maps.Marker({
         position: results[0].geometry.location,
-        icon: "/the-litography-project/images/marker-orange.png"
+        icon: "/images/marker-orange.png"
       });
       marker.setMap(map)
       map.setZoom(16);
