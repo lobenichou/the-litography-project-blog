@@ -6,34 +6,41 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width">
 
+
+
+  <!-- Foundation -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.min.css">
+
   <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
   <!-- Google Map JS -->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcPA81_b6-n4KjMYRZpLlnn0GUnXRBBQ&sensor=true"></script>
+   <!-- scripts -->
+    <script src="{{ site.baseurl }}/js/vendor/jquery.min.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/foggy.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/script.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/modernizr.min.js"></script>
+   <script src="{{ site.baseurl }}/js/vendor/foundation.min.js"></script>
+   <script src="{{ site.baseurl }}/js/main.js"></script>
 
-  <!-- JQUERY -->
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-   <!-- script -->
-   <script src="js/script.js"></script>
-   <script src="js/foggy.js"></script>
 
 </head>
 <body>
 
-  <div class="site">
-    <div class="map-nav">
+
+  <div class="map-nav large-6 columns">
       {% include map.html %}
     </div>
 
-  <div class="main-content">
+  <div class="main-content large-6 columns">
     {{content}}
   </div>
 
-  </div>
+
 </body>
 </html>
