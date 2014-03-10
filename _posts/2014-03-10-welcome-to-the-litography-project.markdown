@@ -32,4 +32,4 @@ cover-image: /images/stories/the-crew.jpeg
 
 <p>The Litography Team</p>
 
-<input type="hidden" class="post_location" name="post_location" value="San Francisco, CA">
+
