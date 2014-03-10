@@ -113,7 +113,7 @@ function initialize() {
             // map.setCenter(results[0].geometry.location);
             var marker = new google.maps.Marker({
               position: results[0].geometry.location,
-              icon: "/images/marker-orange.png",
+              icon: "{{ site.baseurl }}/images/marker-orange.png",
               id: counter++
             });
             marker.setMap(map);
