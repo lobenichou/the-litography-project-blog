@@ -18,9 +18,7 @@ cover-image: /the-litography-project/images/stories/the-crew.jpeg
 
 <p>Welcome to The Litography Project. This is serving as a temporary home-base while we raise the money to make this website as beautiful as it possibly can be!</p>
 
-<p>To help us out with fundraising, please visit our Kickstarter page.</p>
-
-<!-- (insert it here)  -->
+<p>To help us out with fundraising, please visit our <a href=" http://kck.st/OdtNmZ">  Kickstarter page</a>.</p>
 
 <p>In the meantime, keep checking back for new stories and updates about the project. You can also find us on <a href="https://www.facebook.com/thelitographyproject">Facebook</a>, <a href="https://twitter.com/litographysf">Twitter</a>, and <a href="http://instagram.com/thelitographyproject"> Instagram </a>.</p>
 

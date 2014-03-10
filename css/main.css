@@ -136,6 +136,14 @@ a:visited { color: #a0a; }
     -moz-transform: translate(350px,0); /** Firefox **/
 }
 
+#donate{
+  position: absolute;
+  left: 10px;
+  top: 79px;
+  width: 200px;
+  height: auto;
+}
+
 .main-content{
   padding: 0;
   height: 100%;
