@@ -16,9 +16,7 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 
 <p class="back-arrow"><a href="/">&larr; Back</a></p>
 
-
 {% include share_button.html %}
-
 
 <p>Nowadays, most books are quickly put together, or bound, in
 large factories. Reams of paper whir through mechanized assembly
