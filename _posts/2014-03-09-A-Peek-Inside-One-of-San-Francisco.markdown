@@ -12,11 +12,10 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 <h1 class="post-title">A Peek Inside One of San Francisco's Last Book Binderies</h1>
 </div>
 
-<p class="back-arrow"><a href="/">&larr; Back</a></p>
-
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <hr>
+
 {% include share_button.html %}
 
 <hr>
@@ -41,4 +40,7 @@ remain.</p>
 <p>Litography's Angela Johnston takes us to a workshop in the Mission
 where a bookbinder is keeping a centuries-old tradition alive.</p>
 </div>
+
+<p class="back-arrow"><a href="/">&larr; Back</a></p>
+
 <input type="hidden" class="post_location" name="post_location" value=" 2736 16th street, San Francisco CA">
