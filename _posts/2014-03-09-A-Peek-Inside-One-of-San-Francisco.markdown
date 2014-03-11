@@ -5,15 +5,24 @@ date:   2014-03-09 23:01:29
 categories: story
 number: 1
 location:  2736 16th street, San Francisco CA
-cover-image: /the-litography-project/images/stories/angela-story-bookbindery.jpeg
+cover-image: /images/stories/angela-story-bookbindery.jpeg
 ---
 
-<div class="post-image" style="background-image:url('{{ site.baseurl }}/images/stories/angela-story-bookbindery.jpeg');">
+<div class="post-image" style="background-image:url('/images/stories/angela-story-bookbindery.jpeg');">
 <h1 class="post-title">A Peek Inside One of San Francisco's Last Book Binderies</h1>
 </div>
 
 <p class="meta">{{ page.date | date_to_string }}</p>
 
+<hr>
+
+{% include share_button.html %}
+
+<hr>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138954576&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+
+<div class="padding">
 <p>Nowadays, most books are quickly put together, or bound, in
 large factories. Reams of paper whir through mechanized assembly
 lines, and huge blades slice thick piles of pages, shooting out
@@ -30,3 +39,8 @@ remain.</p>
 
 <p>Litography's Angela Johnston takes us to a workshop in the Mission
 where a bookbinder is keeping a centuries-old tradition alive.</p>
+</div>
+
+<p class="back-arrow"><a href="/">&larr; Back</a></p>
+
+<input type="hidden" class="post_location" name="post_location" value=" 2736 16th street, San Francisco CA">

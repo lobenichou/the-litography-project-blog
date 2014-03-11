@@ -1,6 +1,7 @@
 name: The Litography Project
 markdown: redcarpet
 pygments: true
-baseurl: /the-litography-project
-
+baseurl:
+host: http://thelitographyproject.com/
+permalink: /:month-:day-:year/:title.html
 

@@ -6,7 +6,7 @@
 
 /* Global Reset */
 
-@import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,900);
 
 * {
   margin: 0;
@@ -17,14 +17,15 @@ html, body { height: 100%; }
 
 body {
   background-color: rgb(180, 222, 221);
-  font-family:'Cutive Mono', serif;
+  font-family:'Playfair Display SC', serif;
   font-size: large;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  font-family:'Cutive Mono', serif;
+  font-family:'Playfair Display SC', serif;
+  font-weight: 700;
    }
 
 
@@ -138,15 +139,33 @@ a:visited { color: #a0a; }
     -moz-transform: translate(350px,0); /** Firefox **/
 }
 
+#donate{
+  position: absolute;
+  left: 10px;
+  top: 79px;
+  width: 200px;
+  height: auto;
+}
+
 .main-content{
-  padding: 0;
-  height: 100%;
+  height: auto;
   font-size: 115%;
   text-align: justify;
+  color: white;
+  background-color: rgba(0, 0, 0,0.1);
+}
+
+.main-content-post{
+  margin-left: 50%;
+  height: auto;
+  font-size: 115%;
+  text-align: justify;
+  color: white;
+  background-color: rgba(0, 0, 0,0.1);
 }
 
 .post-content{
-  padding: 1em;
+  padding: 10px;
 }
 
 
@@ -216,7 +235,18 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 
-.post-title, .cover-title{
+.cover-title{
+  position: absolute;
+  margin-top: 116px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.post-title{
+
   position: absolute;
   margin-top: 220px;
   height: auto;
@@ -236,8 +266,8 @@ a:visited { color: #a0a; }
 }
 
 .post-preview{
-  height: 300px;
-  width: 111%;
+  height: 200px;
+  width: 100%;
   cursor: pointer;
   background-position:center;
   background-size:cover;
@@ -245,6 +275,12 @@ a:visited { color: #a0a; }
   -moz-transition: opacity 500ms ease;
   -o-transition: opacity 500ms ease;
   transition: opacity 500ms ease;
+}
+
+
+
+.padding{
+  padding: 10px;
 }
 
 
@@ -278,4 +314,8 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.columns{
+  padding: 0;
 }
