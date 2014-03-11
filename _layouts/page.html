@@ -5,6 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
+
+  <!-- Facebook thumbnail settings -->
+  <link rel="image_src" href="/images/Logo.png">
+  <meta name="description" content="An interactive map of San Francisco's literary scene." />
 
 
   <!-- Foundation -->
@@ -19,10 +25,10 @@
 
   <!-- Google Map JS -->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcPA81_b6-n4KjMYRZpLlnn0GUnXRBBQ&sensor=true"></script>
+
    <!-- scripts -->
     <script src="{{ site.baseurl }}/js/vendor/jquery.min.js"></script>
    <script src="{{ site.baseurl }}/js/vendor/foggy.js"></script>
-   <!-- // <script src="{{ site.baseurl }}/js/vendor/script.js"></script> -->
    <script src="{{ site.baseurl }}/js/vendor/modernizr.min.js"></script>
    <script src="{{ site.baseurl }}/js/vendor/foundation.min.js"></script>
    <script src="{{ site.baseurl }}/js/main.js"></script>
