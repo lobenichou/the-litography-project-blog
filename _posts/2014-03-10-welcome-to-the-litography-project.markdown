@@ -12,7 +12,7 @@ author: Ninna Inga Helga Olga
 <h1 class="post-title">The Litography Project</h1>
 </div>
 
-<p class="author"> By {{ author }} </p>
+<p class="author"> By Ninna Inga Helga Olga </p>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 {% include share_button.html %}
