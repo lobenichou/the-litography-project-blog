@@ -13,9 +13,8 @@ cover-image: /images/stories/the-crew.jpeg
 
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<hr>
 {% include share_button.html %}
-<hr>
+
 <div class="padding">
 <p>Hello world!</p>
 

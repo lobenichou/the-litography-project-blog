@@ -12,15 +12,13 @@ cover-image: /images/stories/angela-story-bookbindery.jpeg
 <h1 class="post-title">A Peek Inside One of San Francisco's Last Book Binderies</h1>
 </div>
 
+
+<iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138954576&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+
+
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<hr>
-
 {% include share_button.html %}
-
-<hr>
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138954576&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 
 <div class="padding">
 <p>Nowadays, most books are quickly put together, or bound, in
