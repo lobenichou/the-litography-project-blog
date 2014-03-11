@@ -272,6 +272,10 @@ a:visited { color: #a0a; }
   transition: opacity 500ms ease;
 }
 
+.author{
+  font-style: italic;
+  font-weight: 700;
+}
 
 .padding{
   padding: 10px;

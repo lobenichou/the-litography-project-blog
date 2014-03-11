@@ -6,11 +6,13 @@ categories: updates
 number: 2
 location:  San Francisco, CA
 cover-image: /images/stories/the-crew.jpeg
+author: Ninna Inga Helga Olga
 ---
 <div class="post-image" style="background-image:url('/images/stories/the-crew.jpeg');">
 <h1 class="post-title">The Litography Project</h1>
 </div>
 
+<p class="author"> By {{ post.author }} </p>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 {% include share_button.html %}
