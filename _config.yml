@@ -40,7 +40,7 @@ prose:
           label: "Story number"
           value: ""
           placeholder: "Input number of story"
-          type: "number"
+          type: "text"
 
       - name: "location"
         field:
@@ -67,12 +67,11 @@ prose:
           label: "Published"
           value: false
 
-
-      # - name: "coverImage"
-      #   field:
-      #     element: "text"
-      #     label: "Image URL"
-      #     help: "file: JPG/PNG/JPEG"
-      #     value: ""
-      #     placeholder:"NAMEOFFILE.JPG"
-      #     type: "text"
+      - name: "cover-image"
+        field:
+          element: "text"
+          label: "Image URL"
+          help: "file: JPG/PNG/JPEG"
+          value: ""
+          placeholder:"NAMEOFFILE.JPG"
+          type: "text"
