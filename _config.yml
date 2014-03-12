@@ -54,10 +54,11 @@ prose:
               value: "story"
             - name: "Updates"
               value: "updates"
-      - name: "cover_image"
+      - name: "coverImage"
         field:
           element: "text"
           label: "Image URL"
+          help: "file: JPG/PNG/JPEG"
           value: ""
-          placeholder:"assets/images/stories/NAMEOFIMAGE.JPG"
+          placeholder:"NAMEOFFILE.JPG"
           type: "text"
