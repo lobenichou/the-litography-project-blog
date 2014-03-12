@@ -18,13 +18,13 @@ prose:
           element: "hidden"
           value: "post"
 
-      # - name: "title"
-      #   field:
-      #     element: "text"
-      #     label: "Title"
-      #     value: ""
-      #     placeholder: "Input Title"
-      #     type: "text"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          placeholder: "Input Title"
+          type: "text"
 
       - name: "author"
         field:
@@ -61,11 +61,11 @@ prose:
             - name: "Updates"
               value: "updates"
 
-      - name: "coverImage"
-        field:
-          element: "text"
-          label: "Image URL"
-          help: "file: JPG/PNG/JPEG"
-          value: ""
-          placeholder:"NAMEOFFILE.JPG"
-          type: "text"
+      # - name: "coverImage"
+      #   field:
+      #     element: "text"
+      #     label: "Image URL"
+      #     help: "file: JPG/PNG/JPEG"
+      #     value: ""
+      #     placeholder:"NAMEOFFILE.JPG"
+      #     type: "text"
