@@ -3,9 +3,7 @@ layout: post
 published: true
 title: This Is A Test
 category: story
-number: 
-  - "\"1\""
-  - .nan
+number: ""
 location: mission street San Francisco
 author: Lo
 ---
