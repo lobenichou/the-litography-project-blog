@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome To The Litography Project"
+title:  Welcome To The Litography Project
 date:   2014-03-10 3:38:29
 categories: updates
 number: 2
@@ -9,7 +9,7 @@ cover-image: /images/stories/the-crew.jpeg
 author: Ninna Inga Helga Olga
 ---
 <div class="post-image" style="background-image:url('/images/stories/the-crew.jpeg');">
-<h1 class="post-title">The Litography Project</h1>
+<h1 class="post-title">{{post.title}}</h1>
 </div>
 
 <p class="author"> By Ninna Inga Helga Olga </p>
