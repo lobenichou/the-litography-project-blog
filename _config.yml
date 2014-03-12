@@ -7,6 +7,7 @@ permalink: /:month-:day-:year/:title.html
 
 
 prose:
+
   rooturl: '_posts'
   siteurl: 'http://thelitographyproject.com/'
   media: 'assets/images/stories'
@@ -16,13 +17,15 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-          placeholder: "Input Title"
-          type: "text"
+
+      # - name: "title"
+      #   field:
+      #     element: "text"
+      #     label: "Title"
+      #     value: ""
+      #     placeholder: "Input Title"
+      #     type: "text"
+
       - name: "author"
         field:
           element: "text"
@@ -30,6 +33,7 @@ prose:
           value: ""
           placeholder: "Input Author"
           type: "text"
+
       - name: "number"
         field:
           element: "number"
@@ -37,6 +41,7 @@ prose:
           value: ""
           placeholder: "Input number of story"
           type: "number"
+
       - name: "location"
         field:
           element: "text"
@@ -44,6 +49,7 @@ prose:
           value: ""
           placeholder: "Input location"
           type: "text"
+
       - name: "category"
         field:
           element: "select"
@@ -54,11 +60,12 @@ prose:
               value: "story"
             - name: "Updates"
               value: "updates"
-      - name: "coverImage"
-        field:
-          element: "text"
-          label: "Image URL"
-          help: "file: JPG/PNG/JPEG"
-          value: ""
-          placeholder:"NAMEOFFILE.JPG"
-          type: "text"
+
+      # - name: "coverImage"
+      #   field:
+      #     element: "text"
+      #     label: "Image URL"
+      #     help: "file: JPG/PNG/JPEG"
+      #     value: ""
+      #     placeholder:"NAMEOFFILE.JPG"
+      #     type: "text"
