@@ -61,6 +61,13 @@ prose:
             - name: "Updates"
               value: "updates"
 
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+
+
       # - name: "coverImage"
       #   field:
       #     element: "text"
