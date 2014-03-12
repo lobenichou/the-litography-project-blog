@@ -6,7 +6,6 @@ category: story
 number: 
   - "\"1\""
   - .nan
-  - .nan
 location: mission street San Francisco
 author: Lo
 ---
