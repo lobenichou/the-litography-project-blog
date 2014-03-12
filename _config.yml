@@ -34,17 +34,9 @@ prose:
           placeholder: "Input Author"
           type: "text"
 
-      # - name: "cover-image"
-      #   field:
-      #     element: "text"
-      #     label: "Image URL"
-      #     value: ""
-      #     placeholder:"NAMEOFFILE.JPG"
-      #     type: "text"
-
       - name: "number"
         field:
-          element: "number"
+          element: "text"
           label: "Story number"
           value: ""
           placeholder: "Input number of story"
