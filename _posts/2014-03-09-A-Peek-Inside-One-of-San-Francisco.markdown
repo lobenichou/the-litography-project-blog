@@ -5,7 +5,7 @@ date:   2014-03-09 23:01:29
 categories: story
 number: 1
 location:  2736 16th street, San Francisco CA
-cover-image: /images/stories/angela-story-bookbindery.jpeg
+cover_image: /images/stories/angela-story-bookbindery.jpeg
 author: Angela Johnston
 ---
 

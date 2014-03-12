@@ -30,13 +30,6 @@ prose:
           value: ""
           placeholder: "Input Author"
           type: "text"
-      # - name: "coverimage"
-      #   field:
-      #     element: "text"
-      #     label: "Image URL"
-      #     value: ""
-      #     placeholder:"assets/images/stories/NAMEOFIMAGE.JPG"
-      #     type: "text"
       - name: "number"
         field:
           element: "number"
@@ -61,3 +54,10 @@ prose:
               value: "story"
             - name: "Updates"
               value: "updates"
+      - name: "cover_image"
+        field:
+          element: "text"
+          label: "Image URL"
+          value: ""
+          placeholder:"assets/images/stories/NAMEOFIMAGE.JPG"
+          type: "text"
