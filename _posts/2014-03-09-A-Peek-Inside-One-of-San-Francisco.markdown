@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Peek Inside One of San Francisco's Last Bookbinderies
+title:  "A Peek Inside One of San Francisco's Last Bookbinderies"
 date:   2014-03-09 23:01:29
 categories: story
 number: 1
