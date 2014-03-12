@@ -61,11 +61,11 @@ prose:
             - name: "Updates"
               value: "updates"
 
-      # - name: "coverImage"
-      #   field:
-      #     element: "text"
-      #     label: "Image URL"
-      #     help: "file: JPG/PNG/JPEG"
-      #     value: ""
-      #     placeholder:"NAMEOFFILE.JPG"
-      #     type: "text"
+      - name: "coverImage"
+        field:
+          element: "text"
+          label: "Image URL"
+          help: "file: JPG/PNG/JPEG"
+          value: ""
+          placeholder:"NAMEOFFILE.JPG"
+          type: "text"
