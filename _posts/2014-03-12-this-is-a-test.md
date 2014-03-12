@@ -4,9 +4,11 @@ published: true
 title: This Is A Test
 category: story
 number: 
-  - "1"
-  - 1
+  - "\"1\""
+  - .nan
+  - .nan
 location: mission street San Francisco
+author: Lo
 ---
 
 <div class="post-image" style="background-image:url('/images/stories/angela-story-bookbindery.jpeg');">
