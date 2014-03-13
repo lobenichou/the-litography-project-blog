@@ -95,7 +95,7 @@ function initialize() {
 
   // Adds markers to map
   var allMarkers = []
-  var counter = 0
+  var counter = 1
   for (i in location_arr){
     geocoder.geocode( { 'address': location_arr[i]}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
