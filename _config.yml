@@ -66,4 +66,14 @@ prose:
           label: "Published"
           value: false
 
+      -name: "'cover-image'"
+      field:
+          element: "text"
+          label: "image URL"
+          value: ""
+          placeholder: "/images/stories/NAMEOFIMAGE.JPG"
+          type: "text"
+
+
+
 
