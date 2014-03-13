@@ -88,26 +88,28 @@ function initialize() {
 
     // gets the location for each post into an array
     var location_arr = []
+    var id_loc = {}
     $(".posts_location", ".main-content").each(function(){
-      location_arr.push($(this).val());
+      id = $(this).attr("name");
+      id_loc[id] = $(this).val();
+      location_arr.push(id_loc);
+      console.log (location_arr)
       return location_arr
     });
 
   // Adds markers to map
-  var allMarkers = []
-  var counter = 500
+
+
   for (i in location_arr){
     geocoder.geocode( { 'address': location_arr[i]}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
-
         var marker = new google.maps.Marker({
           position: results[0].geometry.location,
           icon: "/images/marker-orange.png",
-          id: counter--
+          id: i
         });
 
         marker.setMap(map);
-        allMarkers.push(marker);
 
         google.maps.event.addListener(marker, "mouseover", function(){
           id = marker.id;

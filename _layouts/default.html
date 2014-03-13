@@ -61,7 +61,7 @@
     <div class="content">
       {% for post in site.posts %}
 
-      <a name="{{post.number}}" href="{{ site.baseurl }}{{post.url}}" class="locate_post" data-id="{{post.location}}">
+      <a name="{{post.number}}" href="{{ site.baseurl }}{{post.url}}">
 
       <div id="{{post.number}}" class="post-preview" style="background-image:url('{{post.cover-image}}')">
         <h1 class="cover-title">{{post.title}}</h1>
@@ -69,7 +69,7 @@
 
   </a>
 
-  <input type="hidden" class="posts_location" name="post_location" value="{{post.location}}">
+  <input type="hidden" class="posts_location" name="{{post.number}}" value="{{post.location}}">
       {% endfor %}
     </div>
   </div>

@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome To The Litography Project"
 date:   2014-03-09 3:38:29
 categories: updates
-number: 500
+number: 1
 location:  San Francisco, CA
 cover-image: /images/stories/the-crew.jpeg
 author: Ninna Inga Helga Olga
