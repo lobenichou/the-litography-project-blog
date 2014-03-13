@@ -50,7 +50,7 @@ prose:
           placeholder: "Input location"
           type: "text"
 
-      - name: "category"
+      - name: "categories"
         field:
           element: "select"
           label: "Add Categories"
