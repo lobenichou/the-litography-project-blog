@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "A Peek Inside One of San Francisco's Last Bookbinderies"
-date:   2014-03-09 23:01:29
+date:   2014-03-10 23:01:29
 categories: story
-number: 1
+number: 499
 location:  2736 16th street, San Francisco CA
 cover-image: /images/stories/angela-story-bookbindery.jpeg
 author: Angela Johnston

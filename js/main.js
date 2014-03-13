@@ -95,7 +95,7 @@ function initialize() {
 
   // Adds markers to map
   var allMarkers = []
-  var counter = 1
+  var counter = 500
   for (i in location_arr){
     geocoder.geocode( { 'address': location_arr[i]}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
@@ -103,7 +103,7 @@ function initialize() {
         var marker = new google.maps.Marker({
           position: results[0].geometry.location,
           icon: "/images/marker-orange.png",
-          id: counter++
+          id: counter--
         });
 
         marker.setMap(map);
@@ -112,7 +112,7 @@ function initialize() {
         google.maps.event.addListener(marker, "mouseover", function(){
           id = marker.id;
           post_id = "#" + id
-          console.log(post_id)
+          console.log(id, post_id)
           $(".post-preview", ".main-content").foggy({
                  blurRadius: 2,          // In pixels.
                  opacity: 0.8,           // Falls back to a filter for IE.
