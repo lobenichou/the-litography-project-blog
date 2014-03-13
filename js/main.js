@@ -112,6 +112,7 @@ function initialize() {
         google.maps.event.addListener(marker, "mouseover", function(){
           id = marker.id;
           post_id = "#" + id
+          console.log(post_id)
           $(".post-preview", ".main-content").foggy({
                  blurRadius: 2,          // In pixels.
                  opacity: 0.8,           // Falls back to a filter for IE.
