@@ -1,70 +1,70 @@
 name: The Litography Project
 markdown: redcarpet
 pygments: true
-baseurl:
-host: http://thelitographyproject.com/
+# baseurl:
+# host: http://thelitographyproject.com/
 permalink: /:month-:day-:year/:title.html
 
 
-prose:
+# prose:
 
-  rooturl: '_posts'
-  siteurl: 'http://thelitographyproject.com/'
-  media: 'assets/images/stories'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
+#   rooturl: '_posts'
+#   siteurl: 'http://thelitographyproject.com/'
+#   media: 'assets/images/stories'
+#   metadata:
+#     _posts:
+#       - name: "layout"
+#         field:
+#           element: "hidden"
+#           value: "post"
 
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-          placeholder: "Input Title"
-          type: "text"
+#       - name: "title"
+#         field:
+#           element: "text"
+#           label: "Title"
+#           value: ""
+#           placeholder: "Input Title"
+#           type: "text"
 
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
-          placeholder: "Input Author"
-          type: "text"
+#       - name: "author"
+#         field:
+#           element: "text"
+#           label: "Author"
+#           value: ""
+#           placeholder: "Input Author"
+#           type: "text"
 
-      - name: "number"
-        field:
-          element: "text"
-          label: "Story number"
-          value: ""
-          placeholder: "Input number of story"
-          type: "text"
+#       - name: "number"
+#         field:
+#           element: "text"
+#           label: "Story number"
+#           value: ""
+#           placeholder: "Input number of story"
+#           type: "text"
 
-      - name: "location"
-        field:
-          element: "text"
-          label: "location"
-          value: ""
-          placeholder: "Input location"
-          type: "text"
+#       - name: "location"
+#         field:
+#           element: "text"
+#           label: "location"
+#           value: ""
+#           placeholder: "Input location"
+#           type: "text"
 
-      - name: "categories"
-        field:
-          element: "select"
-          label: "Add Categories"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Story"
-              value: "story"
-            - name: "Updates"
-              value: "updates"
+#       - name: "categories"
+#         field:
+#           element: "select"
+#           label: "Add Categories"
+#           placeholder: "Choose Tags"
+#           options:
+#             - name: "Story"
+#               value: "story"
+#             - name: "Updates"
+#               value: "updates"
 
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
+#       - name: "published"
+#         field:
+#           element: "checkbox"
+#           label: "Published"
+#           value: false
 
 

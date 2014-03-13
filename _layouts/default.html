@@ -18,61 +18,61 @@
   <meta property="og:url" content="http://thelitographyproject.com/">
 
   <!-- Foundation -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.min.css">
+  <link rel="stylesheet" href="/css/foundation.min.css">
 
   <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  <link rel="stylesheet" href="/css/syntax.css">
 
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 
 
   <!-- Google Map JS -->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcPA81_b6-n4KjMYRZpLlnn0GUnXRBBQ&sensor=true"></script>
-   <!-- scripts -->
-  <script src="{{ site.baseurl }}/js/vendor/jquery.min.js"></script>
-   <script src="{{ site.baseurl }}/js/vendor/foggy.js"></script>
-   <script src="{{ site.baseurl }}/js/vendor/modernizr.min.js"></script>
-   <script src="{{ site.baseurl }}/js/vendor/foundation.min.js"></script>
-   <script src="{{ site.baseurl }}/js/main.js"></script>
+  <!-- scripts -->
+  <script src="/js/vendor/jquery.min.js"></script>
+  <script src="/js/vendor/foggy.js"></script>
+  <script src="/js/vendor/modernizr.min.js"></script>
+  <script src="/js/vendor/foundation.min.js"></script>
+  <script src="/js/main.js"></script>
 
 
 </head>
 <body>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1401147086817093";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1401147086817093";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
 
-</script>
+  </script>
 
-<div class="row">
+  <div class="row">
 
     <div class="map-nav large-6 columns">
       {% include map.html %}
     </div>
 
-  <div class="main-content large-6 columns">
-    <div class="content">
-      {% for post in site.posts %}
+    <div class="main-content large-6 columns">
+      <div class="content">
+        {% for post in site.posts %}
 
-      <a name="{{post.number}}" href="{{ site.baseurl }}{{post.url}}">
+        <a name="{{post.number}}" href="{{post.url}}">
 
-      <div id="{{post.number}}" class="post-preview" style="background-image:url('{{post.cover-image}}')">
-        <h1 class="cover-title">{{post.title}}</h1>
+          <div id="{{post.number}}" class="post-preview" style="background-image:url('{{post.cover-image}}')">
+            <h1 class="cover-title">{{post.title}}</h1>
+          </div>
+
+        </a>
+
+        <input type="hidden" class="posts_location" name="{{post.number}}" value="{{post.location}}">
+        {% endfor %}
       </div>
-
-  </a>
-
-  <input type="hidden" class="posts_location" name="{{post.number}}" value="{{post.location}}">
-      {% endfor %}
     </div>
   </div>
-</div>
 </body>
 </html>
