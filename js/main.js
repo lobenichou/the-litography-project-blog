@@ -95,7 +95,7 @@ function initialize() {
 
   // Adds markers to map
   var allMarkers = []
-  var counter = 500
+  var counter = 0
   for (i in location_arr){
     geocoder.geocode( { 'address': location_arr[i]}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
@@ -103,7 +103,7 @@ function initialize() {
         var marker = new google.maps.Marker({
           position: results[0].geometry.location,
           icon: "/images/marker-orange.png",
-          id: counter--
+          id: counter++
         });
 
         marker.setMap(map);
