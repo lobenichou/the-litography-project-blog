@@ -9,7 +9,7 @@ prose:
 
   rooturl: '_posts'
   siteurl: 'http://thelitographyproject.com/'
-  media: 'assets/images/stories'
+  media: '/images/stories'
   metadata:
     _posts:
       - name: "layout"
