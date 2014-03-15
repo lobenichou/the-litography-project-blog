@@ -48,6 +48,14 @@ prose:
           placeholder: "Input location"
           type: "text"
 
+      - name: "'cover-image'"
+        field:
+          element: "text"
+          label: "location"
+          value: "''"
+          placeholder: "Input image url"
+          type: "text"
+
       - name: "categories"
         field:
           element: "select"
