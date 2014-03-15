@@ -51,9 +51,9 @@ prose:
       - name: "'cover-image'"
         field:
           element: "text"
-          label: "location"
-          value: "''"
-          placeholder: "Input image url"
+          label: "cover-image"
+          value: ""
+          placeholder: "Input image url with '...'"
           type: "text"
 
       - name: "categories"
