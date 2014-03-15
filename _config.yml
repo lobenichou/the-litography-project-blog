@@ -48,7 +48,7 @@ prose:
           placeholder: "Input location"
           type: "text"
 
-      - name: "'cover-image'"
+      - name: "cover-image"
         field:
           element: "text"
           label: "cover-image"
