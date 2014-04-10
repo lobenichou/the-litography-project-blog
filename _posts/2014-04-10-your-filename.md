@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "lit-on-the-full-moon"
+title: lit on the full moon
 categories: story
 number: "03"
 author: Claire Mullen
@@ -15,7 +15,7 @@ location: "2857 24th St, San Francisco, CA 94110"
 <h1 class="post-title">Lit on the Full Moon</h1>
 </div>
  
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144098479&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144098479&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
  
 <p class="author"> By Claire Mullen </p>
 <p class="meta">{{ page.date | date_to_string }}</p>
