@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: litonthefullmoon
+title: "lit-on-the-full-moon"
 categories: story
 number: "03"
 author: Claire Mullen
