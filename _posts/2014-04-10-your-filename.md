@@ -1,14 +1,14 @@
 ---
 layout: post
 published: false
-title: ""
+title: litonthefullmoon
 categories: story
 ---
 
 ## A New Post
 
 <div class="post-image" style="background-image:url('https://www.flickr.com/photos/39463935@N02/13767007975/');">
-<h1 class="post-title">The Litography Project at Lunada</h1>
+<h1 class="post-title">Lit on the Full Moon</h1>
 </div>
  
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144098479&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
