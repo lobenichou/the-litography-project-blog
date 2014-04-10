@@ -31,4 +31,4 @@ categories: story
  
 <p class="back-arrow"><a href="/">&larr; Back</a></p>
  
-<input type="hidden" class="post_location" name="post_location" value="LOCATION GOES HERE">
+<input type="hidden" class="post_location" name="post_location" value="2857 24th St, San Francisco, CA">
