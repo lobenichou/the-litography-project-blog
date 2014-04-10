@@ -1,15 +1,13 @@
 ---
 layout: post
 published: true
-title: lit on the full moon
+title: Lit On The Full Moon
 categories: story
 number: "03"
 author: Claire Mullen
 location: "2857 24th St, San Francisco, CA 94110"
-"cover-image": "https://www.flickr.com/photos/39463935@N02/13767007975/"
+"cover-image": "\"https://www.flickr.com/photos/39463935@N02/13767007975/\""
 ---
-
-## A New Post
 
 <div class="post-image" style="background-image:url('https://www.flickr.com/photos/39463935@N02/13767007975/');">
 <h1 class="post-title">Lit on the Full Moon</h1>
