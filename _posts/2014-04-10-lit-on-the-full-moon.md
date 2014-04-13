@@ -6,10 +6,10 @@ categories: story
 number: "03"
 author: Claire Mullen
 location: "2857 24th St, San Francisco, CA 94110"
-"cover-image": "https://flic.kr/p/mYxvQt"
+"cover-image": images/stories/lit_moon.jpg
 ---
 
-<div class="post-image" style="background-image:url('https://www.flickr.com/photos/39463935@N02/13767474995/lightbox/');">
+<div class="post-image" style="background-image:url('images/stories/lit_moon.jpg');">
 <h1 class="post-title">Lit on the Full Moon</h1>
 </div>
  
