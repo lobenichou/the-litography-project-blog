@@ -306,7 +306,7 @@ a:visited { color: #a0a; }
 }
 
 .post-preview:hover{
-  background-size: 110%;
+  height: 210px;
 }
 
 .author{
