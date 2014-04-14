@@ -103,7 +103,7 @@ a:visited { color: #a0a; }
   height: 1px;
   width: auto;
   cursor: pointer;
-  left: 40px;
+  left: 80px;
   top: -55px;
   margin: 100px;
   -webkit-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
@@ -117,7 +117,7 @@ a:visited { color: #a0a; }
   height: 1px;
   width: auto;
   cursor: pointer;
-  left: 120px;
+  left: 160px;
   top: -55px;
   margin: 100px;
   -webkit-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
@@ -131,7 +131,7 @@ a:visited { color: #a0a; }
   height: 1px;
   width: auto;
   cursor: pointer;
-  left: 200px;
+  left: 240px;
   top: -55px;
   margin: 100px;
   -webkit-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
