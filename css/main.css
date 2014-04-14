@@ -82,17 +82,13 @@ a:visited { color: #a0a; }
   top: 10px;
 }
 
+
 #social-media-icons{
   position: absolute;
   left:10px;
-  bottom: 60px;
+  bottom: 30px;
   width: 100px;
-  height: 50px;
-  -webkit-transition: all ease-in-out 0.8s;
-  -moz-transition: all ease-in-out 0.8s;
-  -o-transition: all ease-in-out 0.8s;
-  -ms-transition: all ease-in-out 0.8s;
-  transition: all ease-in-out 0.8s;
+  height: 80px;
 }
 
 .social-media-1{
@@ -102,47 +98,83 @@ a:visited { color: #a0a; }
   cursor: pointer;
 }
 
-.social-media-2, .social-media-3, .social-media-4 {
+.social-media-2{
   position: absolute;
-  height: 80px;
+  height: 1px;
   width: auto;
   cursor: pointer;
-  -webkit-transition: all 300ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
-   -moz-transition: all 300ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
-     -o-transition: all 300ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
-        transition: all 300ms cubic-bezier(0.500, 0.250, 0.820, 0.480); /* custom */
+  left: 40px;
+  top: -55px;
+  margin: 100px;
+  -webkit-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  -moz-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  -o-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480); /* custom */
 }
 
-#social-media-icons:hover{
-
+.social-media-3{
+  position: absolute;
+  height: 1px;
+  width: auto;
+  cursor: pointer;
+  left: 120px;
+  top: -55px;
+  margin: 100px;
+  -webkit-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  -moz-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  -o-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480); /* custom */
 }
+
+.social-media-4 {
+  position: absolute;
+  height: 1px;
+  width: auto;
+  cursor: pointer;
+  left: 200px;
+  top: -55px;
+  margin: 100px;
+  -webkit-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  -moz-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  -o-transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480);
+  transition: all 200ms cubic-bezier(0.500, 0.250, 0.820, 0.480); /* custom */
+}
+
+
 #social-media-icons:hover .social-media-2{
-  transform: translate(150px,0);
-  -webkit-transform: translate(150px,0); /** Chrome & Safari **/
-  -o-transform: translate(150px,0); /** Opera **/
-  -moz-transform: translate(150px,0); /** Firefox **/
+  height: 80px;
+  margin: 55px;
 }
 
 #social-media-icons:hover .social-media-3{
-  transform: translate(250px,0);
-    -webkit-transform: translate(250px,0) ; /** Chrome & Safari **/
-    -o-transform: translate(250px,0); /** Opera **/
-    -moz-transform: translate(250px,0); /** Firefox **/
+  height: 80px;
+  margin: 55px;
 }
 
 #social-media-icons:hover .social-media-4{
-  transform: translate(350px,0);
-    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
-    -o-transform: translate(350px,0); /** Opera **/
-    -moz-transform: translate(350px,0); /** Firefox **/
+   height: 80px;
+   margin: 55px;
 }
 
-#donate{
-  position: absolute;
-  left: 10px;
-  top: 79px;
-  width: 200px;
-  height: auto;
+.social-media-2:hover{
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter:invert(100%);
+  filter: invert(100%);
+}
+
+.social-media-3:hover{
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter:invert(100%);
+  filter: invert(100%);
+}
+
+.social-media-4:hover{
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter:invert(100%);
+  filter: invert(100%);
 }
 
 .main-content{
