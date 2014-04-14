@@ -299,10 +299,14 @@ a:visited { color: #a0a; }
   cursor: pointer;
   background-position:center;
   background-size:cover;
-  -webkit-transition: opacity 500ms ease;
-  -moz-transition: opacity 500ms ease;
-  -o-transition: opacity 500ms ease;
-  transition: opacity 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.post-preview:hover{
+  background-size: 110%;
 }
 
 .author{
