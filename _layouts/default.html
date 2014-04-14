@@ -67,7 +67,7 @@
         <a name="{{post.number}}" href="{{post.url}}">
 
           <div id="{{post.number}}" class="post-preview" style="background-image:url('{{post.cover-image}}')">
-            <h1 class="cover-title">{{post.date}} | {{post.title}}</h1>
+            <h1 class="cover-title">{{post.date | date: "%m-%d-%Y"}} | {{post.title}}</h1>
           </div>
 
         </a>
