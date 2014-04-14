@@ -279,10 +279,11 @@ a:visited { color: #a0a; }
   position: absolute;
   margin-top: 220px;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: rgba(180, 222, 221, 0.57);
+  color: black;
   font-size: 20px;
   padding: 10px;
+  letter-spacing: 5px;
 }
 
 .post-image{
