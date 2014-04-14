@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Lit On The Full Moon
 categories: story
-number: "03"
+number: 3
 author: Claire Mullen
 location: "2857 24th St, San Francisco, CA 94110"
 "cover-image": images/stories/lit_moon.jpg
